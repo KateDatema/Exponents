@@ -1,0 +1,6 @@
+/Users/katedatema/Projects/Exponents/Exponents/obj/Debug/Exponents.csprojAssemblyReference.cache
+/Users/katedatema/Projects/Exponents/Exponents/obj/Debug/Exponents.csproj.CoreCompileInputs.cache
+/Users/katedatema/Projects/Exponents/Exponents/bin/Debug/Exponents.exe
+/Users/katedatema/Projects/Exponents/Exponents/bin/Debug/Exponents.pdb
+/Users/katedatema/Projects/Exponents/Exponents/obj/Debug/Exponents.exe
+/Users/katedatema/Projects/Exponents/Exponents/obj/Debug/Exponents.pdb
