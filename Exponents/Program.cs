@@ -13,30 +13,46 @@ namespace Exponents
             bool goOn = true;
             while (goOn == true)
             {
-               int userNum = GetUserInput("integer (no negatives and no greater than 1290)");
-               if (userNum<low)
+               string userNumber = GetUserInput("integer (no negatives and no greater than 1290)");
+
+                try
                 {
-                    Console.Write($"{userNum} is your number is too low ");
-                 }
-               else if (userNum>high)
-                {
-                    Console.Write($"{userNum} is your number too high ");
-                }
-                else {
+                    int userNum = int.Parse(userNumber);
+                    if (userNum < low)
+                    {
+                        throw new Exception("Your number is too low, try again");
+
+                    }
+                    else if (userNum > high)
+                    {
+                        throw new Exception("Your number is too high, try again");
+                    }
+                   
                     GetExponents(userNum);
                     goOn = GetContinue();
+                    
                 }
-      
+                catch (FormatException)
+                {
+                    Console.WriteLine("Hey that was not a valid int, please try again ");
+                    continue;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+
+                }
+
+
             }
         }
 
         //functions for getting user data
-        public static int GetUserInput(string desiredInput)
+        public static string GetUserInput(string desiredInput)
         {
             Console.WriteLine($"Please input a {desiredInput}");
             string input = Console.ReadLine();
-            int output = int.Parse(input);
-            return output;
+            return input;
         }
 
         //Method for display the numbers

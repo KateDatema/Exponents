@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{385BD5A4-DEFA-4FB5-9B5A-84082288CA4A}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Exponents/Program.cs">
     <Files>
-      <File FileName="Exponents/Program.cs" Line="11" Column="6" />
+      <File FileName="../../Documents/Grand_Circus/Mock_assessment/mock-assessment-1-KateDatema-1/MockStarterConsole/MockStarterConsole/Program.cs" Line="21" Column="4" />
+      <File FileName="Exponents/Program.cs" Line="38" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +17,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Exponents FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Exponents PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
